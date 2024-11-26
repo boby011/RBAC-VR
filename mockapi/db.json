@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "David John ",
+      "email": "user1@example.com",
+      "role": "Manager",
+      "status": "Active",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Kuja",
+      "email": "user2@example.com",
+      "role": "Manager",
+      "status": "Active",
+      "permissions": [
+        "Read",
+        "Delete"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "User3",
+      "email": "user3@example.com",
+      "role": "User",
+      "permissions": [
+        "Read"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Manager"
+    },
+    {
+      "id": "2",
+      "name": "User"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "1",
+      "permission": "Read"
+    },
+    {
+      "id": "2",
+      "permission": "Write"
+    },
+    {
+      "id": "3",
+      "permission": "Delete"
+    }
+  ]
+}
